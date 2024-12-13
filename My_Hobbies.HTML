@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>My Hobbies</title>
+        <style>
+            ul li{
+                list-style-type: square;
+            }
+            #places li{
+                list-style: none;
+            }
+            #places li::before{
+                display: inline-block;
+                background-image: url(Bullet\ point.jpg);
+                height: 20px;
+                width: 30px;
+                content: "";
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Here are my hobbies...</h1>
+        <ol type="i">
+            <li>Playing soccer</li>
+            <li>Swimming</li>
+            <li>Reading</li>
+            <li>Biking</li>
+        </ol>
+        <h1>Courses covered by me...</h1>
+        <ul>
+            <li>3d game development</li>
+            <li>Scratch</li>
+            <li>Microbits</li>
+            <li>Mobile utility apps</li>
+            <li>Mobile games</li>
+        </ul>
+        <h1>Places I have been to...</h1>
+        <ul id="places">
+            <li>India</li>
+            <li>Singapore</li>
+            <li>Mexico</li>
+            <li>Amsterdam</li>
+            <li>London</li> 
+            <li>Paris</li> 
+            <li>Canada</li>      
+        </ul>    
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+#header{
+    text-align: center;
+}
+.media{
+    float: left;
+    width: 20%;
+    margin: 5px;
+    border: 1px solid orangered;
+    text-align: center;
+    background-image: radial-gradient(rgb(127, 136, 255),pink);
+    border-radius: 20%;
+    padding: 12px;
+    box-shadow: gray 5px 10px 10px;
+    margin-bottom: 40px;
+}
+.media img{
+    width: 90%;
+    height: 120px;
+    border-radius: 10%;
+    margin: 12px 2px auto;
+}
+.media p{
+    font-family: cursive;
+}
+.media audio{
+    width: 85%;
+}
+.media1{
+    float: left;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid orangered;
+    text-align: center;
+    background-image: radial-gradient(rgb(127, 136, 255),pink);
+    border-radius: 20%;
+    padding: 12px;
+    box-shadow: gray 5px 10px 10px;
+    margin-bottom: 40px;
+}
+.media1 video{
+    width: 70%;
+}
+iframe{
+    border-radius: 10%;
+}
